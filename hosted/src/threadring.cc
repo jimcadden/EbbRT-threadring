@@ -18,7 +18,7 @@
 
 int main(int argc, char** argv) {
   auto bindir = boost::filesystem::system_complete(argv[0]).parent_path() /
-                "/bm/helloworld.elf32";
+                "/bm/threadring.elf32";
 
   ebbrt::Runtime runtime;
   ebbrt::Context c(runtime);
